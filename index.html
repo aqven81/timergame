@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timer Game</title>
+</head>
+<body>
+    
+<button onclick="start()" id="startButton">Start Game!</button>
+<div id="startDarkBg"></div>
+
+<div id="trafficlight">
+  <div id="tl1"></div>
+  <div id="tl2"></div>
+  <div id="tl3"></div>
+</div>
+
+<div id="p1Box">
+  <p>Player 1</p>
+  <p id="p1Timer">
+    0.0
+    <div id="p1c1"></div>  
+  </p>
+  <p>Press S</p>
+
+  
+  <div id="p1c2"></div>
+</div>
+
+<div id="middleBox">
+  <p id="timer">0.0</p>
+  <p id="winner">Player 1 Wins</p>
+</div>
+
+<div id="p2Box">
+  <p>Player 2</p>
+  <p id="p2Timer">0.0</p>
+  <p>Press L</p>
+</div>
+
+<button id="restart" onclick="location.reload()">Restart</button>
+
+<script src="script.js"></script>
+</body>
+</html>
